@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyJp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	
+    <string name="menu_word">单词学习</string>
+    <string name="menu_sentence">句子学习</string>
+    
+    <string name="word_wordlearn">单词学习</string>
+    <string name="word_grouplearn">分组学习</string>
+    <string name="word_wordmanage">单词管理</string>
+    <string name="word_typemanage">类别管理</string>
+    
+    <string name="wordadd_jpword">平仮名</string>
+    <string name="wordadd_jpch">漢字</string>
+    <string name="wordadd_chword">中文</string>
+    <string name="wordadd_chwordhint">中文</string>
+    <string name="wordadd_speech">词性</string>
+    <string name="wordadd_type">类型</string>
+    <string name="wordadd_date">日期</string>
+    <string name="wordadd_desc">描述</string>
+    <string name="wordadd_btnadd">添加</string>
+</resources>

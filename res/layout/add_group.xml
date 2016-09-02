@@ -1,0 +1,31 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addgroup"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+        <TextView android:text="组名称："
+            android:layout_marginLeft="20dip"
+            android:textSize="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <EditText android:width="60pt"
+            android:id="@+id/edtAddGroup"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="组描述："
+            android:layout_marginLeft="20dip"
+            android:textSize="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <EditText android:width="60pt"
+            android:id="@+id/edtAddDesc"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+</TableLayout>
