@@ -15,6 +15,7 @@ public class WordMenu extends Activity {
 	private Button btnGroupLearn = null;      //分组学习
 	private Button btnWordManage = null;      //单词管理
 	private Button btnTypeManage = null;      //类别管理
+	private Button btnBack = null;
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +32,21 @@ public class WordMenu extends Activity {
         
         btnTypeManage = (Button)super.findViewById(R.id.typemanage);
         btnTypeManage.setOnClickListener(new TypeManageOnClick());
+        
+        btnBack = (Button)super.findViewById(R.id.btnback);
+        btnBack.setOnClickListener(new GoBack());
     }
+	
+	private class GoBack implements OnClickListener{
+
+		@Override
+		public void onClick(View arg0) {
+			// TODO Auto-generated method stub
+			Intent it = new Intent(WordMenu.this,Menu.class);
+//			it.putExtra("info","单词学习");
+			WordMenu.this.startActivity(it);
+		}
+	}
 	
 	private class WordOnClick implements OnClickListener{
 

@@ -10,6 +10,8 @@ import com.tool.CommonTool;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -103,7 +105,7 @@ public class WordManage extends Activity {
 		line.addView(btnAdd);
 		
 		Button btnBack = new Button(this);
-		btnBack.setText("添加单词");
+		btnBack.setText("返回");
 		btnBack.setOnClickListener(new OnBtnBack());
 		line.addView(btnBack);
 		
@@ -258,11 +260,27 @@ public class WordManage extends Activity {
 		@Override
 		public void onClick(View arg0) {
 			// TODO Auto-generated method stub
-			int tag = (Integer) arg0.getTag();
-//			MyWord w = getWordById(tag);
-			delWord(tag);
-			Toast.makeText(WordManage.this, "*****删除成功*****",Toast.LENGTH_LONG).show();
-			initWord(CommonTool.getCurLesson(WordManage.this,"wordLessonId"));
+			final int tag = (Integer) arg0.getTag();
+			new AlertDialog.Builder(WordManage.this).  
+            setIcon(R.drawable.ic_launcher).//图标  
+            setTitle("删除?").//标题  
+            setMessage("您确认要删除句子吗？").//提示内容  
+            setPositiveButton("确认", new DialogInterface.OnClickListener() {//确定  
+                @Override  
+                public void onClick(DialogInterface arg0, int arg1) {  
+                    //yes to do  
+                	delWord(tag);
+        			Toast.makeText(WordManage.this, "*****删除成功*****",Toast.LENGTH_LONG).show();
+        			initWord(CommonTool.getCurLesson(WordManage.this,"wordLessonId"));
+                }  
+            }).setNegativeButton("取消", new DialogInterface.OnClickListener(){//取消  
+                @Override  
+                public void onClick(DialogInterface arg1,int witch){  
+                    //no to do  
+                }  
+            }). 
+            show(); 
+			
 		}
 
 	}

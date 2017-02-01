@@ -13,6 +13,29 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+       	<activity
+            android:name="com.active.myjp.SentenceMenu"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.active.myjp.SentenceAdd"
+            android:label="@string/app_name" >
+
+        </activity>
+       	<activity
+            android:name="com.active.myjp.SentenceManage"
+            android:label="@string/app_name" >
+
+        </activity>
+       	<activity
+            android:name="com.active.myjp.SentenceUpdate"
+            android:label="@string/app_name" >
+        </activity>                
+       	<activity
+            android:name="com.active.myjp.SentenceLearn"
+            android:label="@string/app_name" >
+        </activity>         
         <activity
             android:name="com.active.myjp.WordLearn"
             android:label="@string/app_name" >

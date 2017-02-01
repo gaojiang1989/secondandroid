@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MyJp</string>
+    <string name="app_name">私の日本語V1.0</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 	
     <string name="menu_word">单词学习</string>
     <string name="menu_sentence">句子学习</string>
+    <string name="menu_datainit">数据初始化</string>
+    <string name="menu_outsystem">退出系统</string>
     
     <string name="word_wordlearn">单词学习</string>
     <string name="word_grouplearn">分组学习</string>
@@ -22,4 +24,14 @@
     <string name="wordadd_date">日期</string>
     <string name="wordadd_desc">描述</string>
     <string name="wordadd_btnadd">添加</string>
+    
+    <string name="backtext">返回</string>
+    
+    <string name="sentence_learn">句子学习</string>
+    <string name="sentence_manage">句子管理</string>
+    
+    <string name="jpsentence">日语句子</string>
+    <string name="chsentence">中文翻译</string>
+    <string name="sentencegrammer">语法点</string>
+    
 </resources>

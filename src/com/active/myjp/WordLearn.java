@@ -245,9 +245,9 @@ public class WordLearn extends Activity {
 			layout.addView(row);
 		}
 		
-		if(list.size()==0){
+		if(list.size()<5){
 			Button btnAdd = new Button(WordLearn.this);
-			btnAdd.setText("暂无单词，快来添加吧！！");
+			btnAdd.setText("今日添加单词任务尚未完成，快来添加吧！！");
 			btnAdd.setOnClickListener(new OnBtnAdd());
 			layout.addView(btnAdd);
 		}

@@ -21,6 +21,16 @@
         android:layout_below="@id/word"
         android:text="@string/menu_sentence"/>
     
-
-
+	<Button 
+        android:id="@+id/datainit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sentence"
+        android:text="@string/menu_datainit"/>
+	<Button 
+        android:id="@+id/outsystem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datainit"
+        android:text="@string/menu_outsystem"/>	
 </RelativeLayout>

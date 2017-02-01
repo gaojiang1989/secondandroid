@@ -24,33 +24,47 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
+        public static final int action_settings=0x7f08001e;
         public static final int addgroup=0x7f080000;
+        public static final int btnadd=0x7f08000d;
+        public static final int btnback=0x7f08001d;
+        public static final int datainit=0x7f080006;
+        public static final int edchsentence=0x7f080009;
+        public static final int eddesc=0x7f08000c;
+        public static final int edgrammer=0x7f08000a;
+        public static final int edjpsentence=0x7f080008;
         public static final int edtAddDesc=0x7f080002;
         public static final int edtAddGroup=0x7f080001;
-        public static final int grouplearn=0x7f08000f;
+        public static final int grouplearn=0x7f08001a;
+        public static final int outsystem=0x7f080007;
         public static final int sentence=0x7f080005;
+        public static final int sentenceback=0x7f080010;
+        public static final int sentencelearn=0x7f08000e;
+        public static final int sentencemanage=0x7f08000f;
         public static final int sp_word_group=0x7f080003;
-        public static final int typemanage=0x7f080011;
+        public static final int spdate=0x7f08000b;
+        public static final int typemanage=0x7f08001c;
         public static final int word=0x7f080004;
-        public static final int wordaddbtnadd=0x7f08000d;
-        public static final int wordaddchword=0x7f080008;
-        public static final int wordadddate=0x7f08000b;
-        public static final int wordadddesc=0x7f08000c;
-        public static final int wordaddjpch=0x7f080007;
-        public static final int wordaddjpword=0x7f080006;
-        public static final int wordaddspeech=0x7f080009;
-        public static final int wordaddtype=0x7f08000a;
-        public static final int wordlearn=0x7f08000e;
-        public static final int wordmanage=0x7f080010;
+        public static final int wordaddbtnadd=0x7f080018;
+        public static final int wordaddchword=0x7f080013;
+        public static final int wordadddate=0x7f080016;
+        public static final int wordadddesc=0x7f080017;
+        public static final int wordaddjpch=0x7f080012;
+        public static final int wordaddjpword=0x7f080011;
+        public static final int wordaddspeech=0x7f080014;
+        public static final int wordaddtype=0x7f080015;
+        public static final int wordlearn=0x7f080019;
+        public static final int wordmanage=0x7f08001b;
     }
     public static final class layout {
         public static final int activity_word=0x7f030000;
         public static final int add_group=0x7f030001;
         public static final int add_word_group=0x7f030002;
         public static final int menu=0x7f030003;
-        public static final int wordadd=0x7f030004;
-        public static final int wordmenu=0x7f030005;
+        public static final int sentenceadd=0x7f030004;
+        public static final int sentencemenu=0x7f030005;
+        public static final int wordadd=0x7f030006;
+        public static final int wordmenu=0x7f030007;
     }
     public static final class menu {
         public static final int word=0x7f070000;
@@ -58,22 +72,30 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int backtext=0x7f050014;
+        public static final int chsentence=0x7f050018;
         public static final int hello_world=0x7f050002;
+        public static final int jpsentence=0x7f050017;
+        public static final int menu_datainit=0x7f050005;
+        public static final int menu_outsystem=0x7f050006;
         public static final int menu_sentence=0x7f050004;
         public static final int menu_word=0x7f050003;
-        public static final int word_grouplearn=0x7f050006;
-        public static final int word_typemanage=0x7f050008;
-        public static final int word_wordlearn=0x7f050005;
-        public static final int word_wordmanage=0x7f050007;
-        public static final int wordadd_btnadd=0x7f050011;
-        public static final int wordadd_chword=0x7f05000b;
-        public static final int wordadd_chwordhint=0x7f05000c;
-        public static final int wordadd_date=0x7f05000f;
-        public static final int wordadd_desc=0x7f050010;
-        public static final int wordadd_jpch=0x7f05000a;
-        public static final int wordadd_jpword=0x7f050009;
-        public static final int wordadd_speech=0x7f05000d;
-        public static final int wordadd_type=0x7f05000e;
+        public static final int sentence_learn=0x7f050015;
+        public static final int sentence_manage=0x7f050016;
+        public static final int sentencegrammer=0x7f050019;
+        public static final int word_grouplearn=0x7f050008;
+        public static final int word_typemanage=0x7f05000a;
+        public static final int word_wordlearn=0x7f050007;
+        public static final int word_wordmanage=0x7f050009;
+        public static final int wordadd_btnadd=0x7f050013;
+        public static final int wordadd_chword=0x7f05000d;
+        public static final int wordadd_chwordhint=0x7f05000e;
+        public static final int wordadd_date=0x7f050011;
+        public static final int wordadd_desc=0x7f050012;
+        public static final int wordadd_jpch=0x7f05000c;
+        public static final int wordadd_jpword=0x7f05000b;
+        public static final int wordadd_speech=0x7f05000f;
+        public static final int wordadd_type=0x7f050010;
     }
     public static final class style {
         /** 

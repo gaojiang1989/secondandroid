@@ -9,7 +9,7 @@ public class CommonTool {
 	/**
 	 * 当前的软件系统版本
 	 */
-	public static String curVersion = "3.1";
+	public static String curVersion = "1.0";
 	/**
 	 * 返回当前选择的是初级还是中级，初级是1，中级是2
 	 * @param ctx
